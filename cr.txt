@@ -1,0 +1,11 @@
+<?php
+$servername = "localhost";
+$username = "uvwfce2farmde";
+$password = "qkkua9og6rd5";
+$database = "dbweuk4tbyhrww"; 
+
+$conn = mysqli_connect($servername, $username, $password, $database);
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+?>
